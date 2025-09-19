@@ -36,7 +36,7 @@
 * **LEIAME.txt** com nomes, RA, turma e **passo a passo para executar**.
 * **Data** indicada no PDF: **21/09/2025**.&#x20;
 
-# Como será avaliado (resumo)
+# Como será avaliado
 
 * **Carregar dados de um arquivo e validar entrada** (até 1,0 pt).
 * **Função recursiva com backtracking implementada** (até 2,5 pt).
@@ -44,15 +44,14 @@
 * **Saída em tela** (até 1,5 pt).
 * **Clareza do código** (até 1,0 pt).
 * **Vídeo** (até 2,0 pt).
-  Há também **reduções** (cópia ⇒ zero, não compila ⇒ zero, arquivo faltando ⇒ −2,5, etc.). O PDF também mostra **como compilar/executar no Windows**:
+
+**Reduções**
+
+Cópia ⇒ zero
+
+Não compila ⇒ zero
+
+Arquivo faltando ⇒ −2,5, etc.). O PDF também mostra **como compilar/executar no Windows**:
   `gcc -o main.exe *.c *.h` e depois `main.exe`.&#x20;
 
-# Observações importantes do enunciado
 
-* **Backtracking recursivo é obrigatório** (sem isso, o trabalho pode ser considerado tentativa de fraude).&#x20;
-* **Participação no vídeo**: ausência reduz nota **individualmente**.&#x20;
-* **Inconsistências no PDF**:
-
-  * Cabeçalho fala **grupo de 2 a 3**; a última página menciona **individual ou dupla**.
-  * Uma seção fala em “programa iterativo”, mas a **regra de avaliação exige recursão com backtracking**.
-    Sugiro seguir o que vale para a nota (**backtracking recursivo**) e confirmar com o professor o **tamanho do grupo** (vou assumir 2–3 como no topo do enunciado).&#x20;
