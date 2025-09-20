@@ -1,0 +1,100 @@
+PROJETO 1 - Missão no Edifício João Calvino
+
+Disciplina: Projeto e Análise de Algoritmos II
+Docente: Prof. Dr. Charles Boulhosa Rodamilans
+Discentes:
+            Fabyani Tiva Yan (RA: 10431835) - Turma 04N
+            Rute Willemann (RA: 10436781) - Turma 04N
+
+============================================================
+PASSOS PARA COMPILAÇÃO E EXECUÇÃO NA MÁQUINA LOCAL (WINDOWS)
+============================================================
+
+Pré-requisitos
+- Ter o compilador GCC instalado no Windows.
+- Arquivo missaoJoaoCalvino.c na pasta do projeto.
+
+1) Abrir o Prompt de Comando do Windows
+
+2) Compilar o programa:
+   gcc -o main.exe missaoJoaoCalvino.c
+
+3) Executar o programa:
+   main.exe
+
+4) Digitar manualmente cada um dos três testes oficiais, exatamente como abaixo:
+
+=== TESTE 1 ===
+- Entrada: -
+5
+HVVVHV
+HHVVVV
+HVHVVH
+*HVVHV
+HHHVHH
+0 0
+
+- Saída esperada: -
+Chave encontrada no Edifício João Calvino!
+
+=== TESTE 2 ===
+- Entrada: -
+5
+HVVVHV
+HHVVVV
+HVHVVH
+*HVVHV
+HHHVHH
+0 4
+
+- Saída esperada: -
+Não conseguimos encontrar a chave no Edifício João Calvino.
+
+=== TESTE 3 ===
+- Entrada: -
+7
+HVVVHHHVV
+HVVVHVVHV
+HHHVVHHHV
+VVHVVHVVV
+HHHVVHVH*
+HHVHHHHHH
+VVVVVVVVV
+0 4
+
+- Saída esperada: -
+Chave encontrada no Edifício João Calvino!
+
+========================================================
+PASSOS PARA COMPILAÇÃO E EXECUÇÃO NO GITHUB / CODESPACES
+========================================================
+
+1) Acesse o repositório no GitHub:
+   https://github.com/rutewillemann/PAA2
+
+2) Crie um Codespace:
+   - Clique no botão "Code".
+   - Vá até a aba "Codespaces".
+   - Clique em "Create codespace on main".
+
+3) Aguarde a abertura do Codespaces.
+
+4) Abra o terminal dentro do Codespaces.
+
+5) Compile o programa:
+   gcc -o main.exe missaoJoaoCalvino.c
+
+6) Execute os três testes oficiais.
+   Os arquivos de teste estão disponíveis na pasta testes/:
+   - testes/teste1.txt
+   - testes/teste2.txt
+   - testes/teste3.txt
+
+   Execute um por um com:
+   ./main.exe < testes/teste1.txt
+   ./main.exe < testes/teste2.txt
+   ./main.exe < testes/teste3.txt
+
+7) (Opcional) Rodar todos os testes de uma vez com o script:
+   chmod +x rodar_testes.sh
+   ./rodar_testes.sh
