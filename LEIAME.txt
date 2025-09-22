@@ -6,6 +6,11 @@ Discentes:
             Fabyani Tiva Yan (RA: 10431835) - Turma 04N
             Rute Willemann (RA: 10436781) - Turma 04N
 
+====================================================
+Link para vídeo no youtube com explicação do código: 
+https://youtu.be/mOJ27XA9Pp4?si=qK6-nzIlIX4NY2eA
+====================================================
+
 ============================================================
 PASSOS PARA COMPILAÇÃO E EXECUÇÃO NA MÁQUINA LOCAL (WINDOWS)
 ============================================================
